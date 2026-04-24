@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Classificador de Idade</h1>
+        <p>Digite sua idade para saber sua categoria.</p>
+
+        <div class="card">
+            <label for="idade">Qual sua idade?</label>
+            <input type="number" id="idade" placeholder="Ex: 25">
+
+            <button onclick="classificarIdade()">Verificar Categoria</button>
+            
+            <div id="resultado" class="result-box">
+                O resultado aparecerá aqui...
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

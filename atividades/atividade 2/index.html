@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Tabuada JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Super Tabuada</h1>
+        <p>Escolha um número e a operação:</p>
+
+        <div class="card">
+            <input type="number" id="numDigitado" placeholder="Ex: 5">
+
+            <select id="operacao">
+                <option value="soma">Soma (+)</option>
+                <option value="subtracao">Subtração (-)</option>
+                <option value="multiplicacao">Multiplicação (x)</option>
+                <option value="divisao">Divisão (÷)</option>
+            </select>
+
+            <button onclick="gerarTabuada()">Gerar Resultado</button>
+            
+            <div id="resultado" class="result-box">
+                O resultado aparecerá aqui...
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

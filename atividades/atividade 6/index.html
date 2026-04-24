@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora</h1>
+        
+        <div class="card">
+            <div class="inputs">
+                <input type="number" id="valor1" placeholder="Número 1">
+                <input type="number" id="valor2" placeholder="Número 2">
+            </div>
+
+            <div class="grid-botoes">
+                <button onclick="calcular('+')">Somar (+)</button>
+                <button onclick="calcular('-')">Subtrair (-)</button>
+                <button onclick="calcular('*')">Multiplicar (x)</button>
+                <button onclick="calcular('/')">Dividir (÷)</button>
+            </div>
+            
+            <div id="resultado" class="result-box">
+                Resultado aparecerá aqui
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

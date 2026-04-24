@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Analisador de Texto</h1>
+        <p>Digite ou cole seu texto abaixo:</p>
+
+        <div class="card">
+            <textarea id="meuTexto" rows="6" placeholder="Escreva aqui..."></textarea>
+
+            <button onclick="analisarTexto()">Analisar Texto</button>
+            
+            <div id="resultado" class="result-box">
+                Aguardando texto...
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
